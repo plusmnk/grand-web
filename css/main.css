@@ -76,3 +76,26 @@ nav .toggle button i {
     color: #fff;
     font-weight: 500;
 }
+
+.hero {
+    padding: 100px 0;
+}
+.hero .container {
+    display: grid;
+    align-items: center;
+
+    grid-template-columns: 1fr 1fr;
+}
+.hero .info h1 {
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 50px;
+}
+.hero .info p {
+    margin-bottom: 46px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.hero .banner img {
+    width: 100%;
+}
